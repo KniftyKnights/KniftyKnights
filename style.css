@@ -10,6 +10,8 @@
 
 html {
 	scroll-behavior: smooth;
+	max-width: 100%;
+	overflow-x: hidden;
 }
 body {
 	background: #444;
@@ -384,5 +386,17 @@ p {
 
 	.accordion {
 		width: 95%;
+	}
+
+	footer {
+		grid-template-columns: 1fr;
+	}
+
+	footer > #title {
+		grid-column: 1;
+	}
+
+	footer > #character {
+		grid-column: 1;
 	}
 }
