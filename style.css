@@ -339,8 +339,30 @@ p {
 		margin-top: 0;
 	}
 
-	nav > a {
+	.sticky {
+		transition: all 0.6s linear;
+		height: auto;
+	}
+	nav {
+		height: auto;
+	}
+
+	nav > .nav-link {
 		display: none;
+	}
+
+	#nav-button {
+		display: none;
+	}
+
+	.sticky > #nav-button {
+		display: block;
+		transition: all 0.5s linear;
+	}
+
+	nav > .sticky-button {
+		display: block;
+		transition: all 0.6s linear;
 	}
 
 	.intro,
@@ -353,12 +375,13 @@ p {
 	.gallery {
 		padding: 40px 0px;
 		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
+		flex-wrap: nowrap;
+		justify-content: left;
 		align-items: center;
+		overflow-y: scroll;
 	}
 	.gallery > img {
-		max-width: 100px;
+		max-width: 250px;
 		border: 1px solid black;
 		border-radius: 20px;
 		/* margin: 12px; */
