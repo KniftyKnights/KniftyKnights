@@ -317,16 +317,15 @@ p {
 @media only screen and (max-width: 1200px) {
 	.heading {
 		grid-template-columns: 1fr;
-		height: 700px;
+		height: 650px;
 		padding: 0;
-	}
-
-	.heading-sub > img {
-		width: 250px;
 	}
 
 	.heading-sub > p {
 		text-align: center;
+	}
+	.heading-sub > img {
+		max-width: 225px;
 	}
 
 	.heading > button {
@@ -335,7 +334,7 @@ p {
 	h1 {
 		font-size: 50px;
 		text-align: center;
-		margin-top: 40px;
+		margin-top: 0px;
 	}
 	h2 {
 		font-size: 30px;
