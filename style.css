@@ -318,23 +318,24 @@ p {
 	.heading {
 		grid-template-columns: 1fr;
 		height: 650px;
-		padding: 0;
+		padding: 5px;
 	}
 
 	.heading-sub > p {
 		text-align: center;
 	}
 	.heading-sub > img {
-		max-width: 225px;
+		max-width: 175px;
+		margin-bottom: 52px;
 	}
 
 	.heading > button {
 		padding: 12px;
 	}
 	h1 {
-		font-size: 50px;
+		font-size: 36px;
 		text-align: center;
-		margin-top: 0px;
+		margin-top: 40px;
 	}
 	h2 {
 		font-size: 30px;
