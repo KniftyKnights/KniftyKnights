@@ -317,8 +317,12 @@ p {
 @media only screen and (max-width: 1200px) {
 	.heading {
 		grid-template-columns: 1fr;
-		height: 100vh;
+		height: 700px;
 		padding: 0;
+	}
+
+	.heading-sub > img {
+		width: 250px;
 	}
 
 	.heading-sub > p {
