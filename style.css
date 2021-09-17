@@ -317,7 +317,7 @@ p {
 @media only screen and (max-width: 1200px) {
 	.heading {
 		grid-template-columns: 1fr;
-		height: 695px;
+		height: 100vh;
 		padding: 0;
 	}
 
