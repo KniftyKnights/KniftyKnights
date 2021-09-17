@@ -41,7 +41,7 @@ nav {
 nav > a {
 	list-style: none;
 	display: flex;
-	margin: 1em 2em;
+	margin: 0.3em 2em;
 	justify-content: center;
 	align-items: center;
 }
@@ -347,6 +347,10 @@ p {
 		height: auto;
 	}
 
+	nav > a {
+		margin: 0;
+	}
+
 	nav > .nav-link {
 		display: none;
 	}
@@ -355,6 +359,9 @@ p {
 		display: none;
 	}
 
+	.nav-button {
+		margin-right: 0px;
+	}
 	.sticky > #nav-button {
 		display: block;
 		transition: all 0.5s linear;
