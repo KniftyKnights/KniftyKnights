@@ -44,11 +44,19 @@ nav > a {
 	margin: 0.3em 2em;
 	justify-content: center;
 	align-items: center;
+	transition: all 0.1s linear;
+}
+nav > a:hover {
+	color: white;
+	transition: all 0.1s linear;
+	border-bottom: 0px solid white;
 }
 
 nav > a:hover {
-	border-top: 1px solid black;
-	border-bottom: 1px solid black;
+	/* border-top: 1px solid black; */
+
+	border-bottom: 3px solid white;
+	transition: all 0.1s linear;
 }
 .sticky {
 	position: fixed;
@@ -363,6 +371,10 @@ p {
 		padding-right: 0px;
 	}
 
+	nav > a {
+		margin: 0;
+		color: white;
+	}
 	nav > a {
 		margin: 0;
 		color: white;
